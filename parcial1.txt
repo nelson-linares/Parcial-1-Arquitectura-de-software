@@ -2,6 +2,8 @@
 Como lo que se pretende con el proyecto es ubicar a la persona por medio del Tacit utilizando el GPS la arquitectura de software más adecuada a utilizar es la REST ya que esta arquitectura va orientada a sistemas hepermedias distribuidos como la web. Otra ventaja que tiene dicha arquitectura es que es aplicable en sistemas basados en tiempo real, es decir, acceder a la información en el mismo instante que requiere el cliente al servidor. En este caso como el objetivo es ubicar a la persona discapacitada por medio de ubicación satelital se requiere de constantes peticiones de cliente a servidor y que arroje resultados en el mismo instante que se le esta solicitando.   
 2)    Haga un modelo de casos de uso de este proyecto
 
+Enlace del caso de uso
+http://www.subirimagenes.net/i/140305044844725596.png
 
 
 
