@@ -1,5 +1,10 @@
 1)    Que estilo Arquitectónico cree usted que aplicaría al desarrollo de este proyecto
-Como lo que se pretende con el proyecto es ubicar a la persona por medio del Tacit utilizando el GPS la arquitectura de software más adecuada a utilizar es la REST ya que esta arquitectura va orientada a sistemas hepermedias distribuidos como la web. Otra ventaja que tiene dicha arquitectura es que es aplicable en sistemas basados en tiempo real, es decir, acceder a la información en el mismo instante que requiere el cliente al servidor. En este caso como el objetivo es ubicar a la persona discapacitada por medio de ubicación satelital se requiere de constantes peticiones de cliente a servidor y que arroje resultados en el mismo instante que se le esta solicitando.   
+Como lo que se pretende con el proyecto es ubicar a la persona por medio del Tacit utilizando el GPS la
+arquitectura de software más adecuada a utilizar es la REST ya que esta arquitectura va orientada a sistemas
+hepermedias distribuidos como la web. Otra ventaja que tiene dicha arquitectura es que es aplicable en 
+basados en tiempo real, es decir, acceder a la información en el mismo instante que requiere el cliente al servidor.
+En este caso como el objetivo es ubicar a la persona discapacitada por medio de ubicación satelital se requiere de 
+constantes peticiones de cliente a servidor y que arroje resultados en el mismo instante que se le esta solicitando.   
 2)    Haga un modelo de casos de uso de este proyecto
 
 Enlace del caso de uso
@@ -8,20 +13,42 @@ http://www.subirimagenes.net/i/140305044844725596.png
 
 
 a)	stakeholders
-los stakeholders son todas las personas que de manera directa o indirecta colaboran para que un proyecto se lleve a cabo. Es decir, son todos aquellos interesados  que participan en el desarrollo de un proyecto. 
+los stakeholders son todas las personas que de manera directa o indirecta colaboran para que un proyecto se lleve a cabo. 
+Es decir, son todos aquellos interesados  que participan en el desarrollo de un proyecto. 
 Para el desarrollo de un proyecto de software es conveniente que hayan varios stakeholders ya que a cada colaborador se le asigna un rol o tarea específica para que sea desarrollada por dicho stakeholder. Por ejemplo en una empresa de desarrollo de software está el analista, el diseñador, el que gestiona la recolección de datos para modelar el proyecto, el programador , el tester o analista de pruebas y jefe del proyecto. Todos ellos son stakeholders en rl proyecto porque de una manera u otra realizan su respectivo trabajo para cumplir con el objetivo.
+
 b)	inyección de dependencias
-Es un patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia clase quien cree el objeto.
-consiste en hacer que nuestras piezas de software sean independientes comunicándose únicamente a través de un interface Esto implica muchas modificaciones en el código fuente como el uso de implementaciones, la eliminación de la instanciación de objetos mediante la instrucción new o la necesidad de un modo de configuración que indique que clases se instanciarán en el caso de solicitarlo.
+Es un patrón de diseño orientado a objetos, en el que se suministran objetos a una clase en lugar de ser la propia
+clase quien cree el objeto. consiste en hacer que nuestras piezas de software sean independientes comunicándose
+únicamente a través de un interface Esto implica muchas modificaciones en el código fuente como el uso de
+implementaciones, la eliminación de la instanciación de objetos mediante la instrucción new o la necesidad 
+de un modo de configuración que indique que clases se instanciarán en el caso de solicitarlo.
 
 c)	débilmente acoplado
-La arquitectura de software se basa en los componentes y las relaciones entre sus componentes. Para que una arquitectura sea eficaz al momento de eliminar, agregar o modificar sus componentes y que no afecte mucho en la arquitectura es importante tener en cuenta desarrollarla haciendo un acople débil o debe ser débilmente acoplado entre los componentes y sus relaciones entre sí. Por ejemplo, si en algún momento se necesita hacer alguna modificación o eliminar algún componente de la arquitectura esta no debe afectar en su totalidad a sus clientes ya que estaría débilmente acoplada. Es importante aclarar que los componentes deben tener cierto acoplamiento y dependencia pero entre este débilmente acoplada mejor. 
+La arquitectura de software se basa en los componentes y las relaciones entre sus componentes. Para que una 
+arquitectura sea eficaz al momento de eliminar, agregar o modificar sus componentes y que no afecte mucho en la 
+arquitectura es importante tener en cuenta desarrollarla haciendo un acople débil o debe ser débilmente acoplado
+entre los componentes y sus relaciones entre sí. Por ejemplo, si en algún momento se necesita hacer alguna
+modificación o eliminar algún componente de la arquitectura esta no debe afectar en su totalidad a sus clientes
+ya que estaría débilmente acoplada. Es importante aclarar que los componentes deben tener cierto acoplamiento y
+dependencia pero entre este débilmente acoplada mejor. 
 
 3) Cual es la diferencia entre máquina virtual y compiladores
-Compiladores	Máquina virtual
-Genera un ejecutable	
-Genera una especie de ejecutable, pero portable entre plataformas, dirigido a una CPU imaginaria.
-La ejecución es muy rápida debido a que el programa ya ha sido traducido a código máquina	La ejecución no es tan rápida como en la compilación tradicional ni tan lenta como en la interpretación.
-Los lenguajes compilados suelen proporcionar al programador mecanismos más potentes y flexibles, a costa de una mayor ligazón a la plataforma.	La plataforma de destino es virtual. Así pues, los programas son dependientes de esta plataforma virtual, que es emulada luego sobre plataformas reales por la máquina virtual.
-Una vez compilado el programa, el código fuente no es necesario para ejecutarlo, así que puede permanecer en secreto si se desea.	El código fuente no es necesario para la ejecución, sólo el código intermedio.
 
+Compiladores
+
+- Genera un ejecutable
+- La ejecución es muy rápida debido a que el programa ya ha sido traducido a código máquina
+- Los lenguajes compilados suelen proporcionar al programador mecanismos más potentes y flexibles, a costa de
+una mayor ligazón a la plataforma.
+- Una vez compilado el programa, el código fuente no es necesario para ejecutarlo, así que puede permanecer 
+en secreto si se desea.
+
+
+Máquina virtual
+
+- Genera una especie de ejecutable, pero portable entre plataformas, dirigido a una CPU imaginaria.
+- La ejecución no es tan rápida como en la compilación tradicional ni tan lenta como en la interpretación.
+- La plataforma de destino es virtual. Así pues, los programas son dependientes de esta plataforma virtual,
+que es emulada luego sobre plataformas reales por la máquina virtual.
+- El código fuente no es necesario para la ejecución, sólo el código intermedio.
